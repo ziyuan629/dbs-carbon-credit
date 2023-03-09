@@ -1,0 +1,87 @@
+.SideBar {
+  height: calc(100vh - 64px);
+  width: 250px;
+  min-height: 600px;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  background-color: #e9ecef;
+  align-items: top;
+  box-sizing: border-box;
+  z-index: 90;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+.SideBar h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  color: #495057;
+}
+
+.SideBar input {
+  margin-right: 12px;
+}
+
+.SideBar h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #495057;
+}
+
+.SideBar label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #495057;
+}
+
+.SideBar checkbox {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.Sponsor {
+  padding-left: 0px;
+
+  text-align: center;
+}
+
+.Foot {
+  padding-left: 30px;
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 0;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #495057;
+}
+
+.Foot:after {
+  content: '';
+  display: block;
+  clear: both;
+}

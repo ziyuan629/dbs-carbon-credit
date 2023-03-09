@@ -1,0 +1,31 @@
+.Item {
+  float: left;
+  height: 24px;
+
+  /* identical to box height, or 125% */
+
+  padding-left: 30px;
+  padding-top: 40px;
+
+  color: #e5e5e5;
+}
+
+.Item img {
+  margin: auto;
+}
+
+.Item text {
+  padding-left: 24px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: auto;
+}
+
+.Item:after {
+  content: '';
+  display: block;
+  clear: both;
+}

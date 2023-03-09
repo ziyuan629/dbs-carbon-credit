@@ -1,0 +1,268 @@
+/* Filter */
+.Filtercolumn{
+/* Rectangle 2 */
+
+
+position: absolute;
+width: 250px;
+left: 0px;
+top: 0px;
+bottom: -2px;
+
+background: #E9ECEF;
+}
+.Filtertextbox1{
+    /* Rectangle 2 */
+
+
+position: absolute;
+width: 250px;
+left: 0px;
+top: 0px;
+bottom: -2px;
+
+background: #E9ECEF;
+}
+.Filtertextbox2{
+    /* Categories */
+
+
+position: absolute;
+width: 220px;
+left: 15px;
+top: 66px;
+bottom: 1522px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #495057;
+}
+.Checkbox{
+   /* checkbox */
+
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 15px;
+top: 110px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+}
+.Checkboxtext{
+    /* Energy */
+
+
+position: absolute;
+width: 194px;
+left: 41px;
+top: 105px;
+bottom: 1483px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #495057;
+}
+/* Card */
+.CardBorder{
+    /* Rectangle */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%; 
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.125);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.Cardimg{
+    /* Rectangle */
+
+
+position: absolute;
+height: 120px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: #FF5A5F;
+border-radius: 4px 4px 0px 0px;
+}
+.Textbox1{
+    /* Airbnb water challenge */
+
+
+position: absolute;
+height: 30px;
+left: 20px;
+right: 20px;
+top: 140px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+}
+.Heart{
+    /*  */
+
+
+position: absolute;
+width: 20px;
+height: 30px;
+right: 20px;
+top: 140px;
+
+font-family: Font Awesome 5 Free;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+}
+.Cardtag1{
+/* 3:7:3:7 */
+
+
+position: absolute;
+width: 136px;
+height: 12px;
+left: 27px;
+top: 186px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+}
+.Cardtag2{
+/* 3:7:3:7 */
+
+
+position: absolute;
+width: 136px;
+height: 12px;
+left: 27px;
+top: 186px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+}
+.Cardtag3{
+    /* 3:7:3:7 */
+
+
+position: absolute;
+width: 38px;
+height: 12px;
+left: 244px;
+top: 186px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.textBox2{
+    /* 3:7:3:7 */
+
+
+position: absolute;
+width: 38px;
+height: 12px;
+left: 244px;
+top: 186px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.CardButtonleft{
+/* BG */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+.CardButtonright{
+    /* BG */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #6F42C1;
+border: 1px solid #6F42C1;
+box-sizing: border-box;
+border-radius: 4px;
+}

@@ -1,0 +1,189 @@
+.Content {
+  position: absolute;
+  left: 337px;
+  right: 20px;
+  top: 84px;
+  text-align: left;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.NavLine {
+  width: 100%;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+.Challenge {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 60%;
+  min-width: 400px;
+
+  padding: 30px 30px;
+  margin-right: 30px;
+}
+
+.ChaLine {
+  width: 100%;
+  text-align: left;
+  color: #2a3037;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.Content input {
+  background: #f2f2f2;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Content p {
+  text-align: left;
+  color: #2a3037;
+}
+
+.Content h3 {
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  width: 100%;
+  color: #2a3037;
+}
+
+.ChaSpan80 {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.Content img {
+  margin: 60px 20px;
+  width: 158px;
+  height: 131px;
+}
+
+.Content select {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  color: #373a3c;
+}
+
+.Content textarea {
+  height: 140px;
+  width: 100%;
+
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.FakeLink {
+  color: #007bff;
+}
+
+.Alert {
+  width: 100%;
+  text-align: centre;
+  color: red;
+  height: 24px;
+  padding-top: 20px;
+}
+
+.PrimaryButton {
+  background: #6f42c1;
+  border: 1px solid #6f42c1;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 100%;
+  height: 38px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+
+  margin: 10px 0px;
+
+  color: #ffffff;
+}
+
+.SecondaryButton {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 100%;
+  height: 38px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+
+  color: #373a3c;
+}
+
+.Publish {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  align-items: center;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 300px;
+  height: 350px;
+  padding: 20px 20px;
+}
+
+.Publish a {
+  width: 100%;
+}
+
+.Publish button {
+  margin-left: 0px;
+  margin-right: 0px;
+}

@@ -1,0 +1,80 @@
+.Card {
+  position: absolute;
+  width: 345px;
+  height: 391px;
+  left: calc(50% - 345px / 2 + 0.5px);
+  top: 317px;
+  z-index: 500;
+
+  background: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  padding: 30px 30px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-around;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.Card button {
+  background: #6f42c1;
+  border: 1px solid #6f42c1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 38px;
+  width: 100%;
+  font-weight: 600;
+  color: #ffffff;
+  align-self: flex-end;
+}
+
+.Card h3 {
+  font-size: 20px;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 10px;
+  padding: 0px 0px;
+}
+
+.Card p {
+  height: 24px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  line-height: 24px;
+  color: #373a3c;
+}
+
+.Card input {
+  height: 38px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.BG {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../asset/background.png");
+  background-color: black;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

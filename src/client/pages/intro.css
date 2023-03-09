@@ -1,0 +1,30 @@
+.sidebar {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 250px;
+  left: 0px;
+  top: 64px;
+  bottom: -2px;
+
+  background: #e9ecef;
+}
+
+.filter_title {
+  /* Filter by */
+
+  position: absolute;
+  width: 220px;
+  left: 15px;
+  top: 24px;
+  bottom: 1558px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  color: #495057;
+}

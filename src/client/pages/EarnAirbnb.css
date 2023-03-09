@@ -1,0 +1,252 @@
+.BgBoard {
+  position: absolute;
+  width: 100%;
+  height: 940px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.BgBoard img {
+  width: 100%;
+}
+
+.BgTopBoard {
+  position: absolute;
+  width: 860px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 30px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background: #ffffff;
+}
+
+.BgTopBoard a {
+  width: 100%;
+}
+
+.BgBottBoard {
+  position: absolute;
+  width: 830px;
+  left: 50%;
+  top: 910px;
+  transform: translate(-50%, 0);
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 30px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.BgBottBoard p {
+  width: 100%;
+}
+
+.BgTopBoard h3 {
+  text-align: left;
+  width: 75%;
+}
+.BgTopBoard p {
+  width: 75%;
+  text-align: left;
+}
+
+.VertBar {
+  width: 1px;
+  height: 31px;
+  background: #c4c4c4;
+  margin: 0 15px;
+}
+
+hr {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.BgTopBoard input {
+  width: 50%;
+  height: 38px;
+  margin-right: 20px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #495057;
+  margin-top: 0px;
+}
+
+h4 {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #495057;
+}
+
+button {
+  background: #818a91;
+  border: 1px solid #7a7a7a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* width: 203px; */
+  width: auto;
+  height: 38px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.RedButton {
+  background: #ff3333;
+  border: 1px solid #ee1818;
+}
+
+.Card {
+  width: 370px;
+  height: 521px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Card2 {
+  width: 365px;
+  height: 484px;
+  margin-right: 10px;
+}
+
+.Card2 u {
+  color: #007bff;
+}
+
+.Card2 img {
+  margin-bottom: 10px;
+}
+
+.Card3 {
+  width: 345px;
+  height: 484px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Card3 button {
+  width: auto;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Card img {
+  padding-right: 5px;
+}
+
+.Details {
+  text-align: center;
+  color: #007bff;
+  margin: 0 auto;
+}
+
+.CardRow {
+  padding: 12px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Impact {
+  background: #dff0d8;
+  border: 1px solid #d0e9c6;
+  border-radius: 4px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c763d;
+  padding: 15px 15px;
+  width: 100%;
+}
+
+.CardRow h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  height: 24px;
+  color: #373a3c;
+  width: 100%;
+  margin: 0px 0px;
+}
+.CardRow h6 {
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c757d;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+.CardLabelActive {
+  background: #d9534f;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.CardLabelInactive {
+  background: #818a91;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}

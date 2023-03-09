@@ -1,0 +1,147 @@
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Content {
+  position: absolute;
+  top: 64px;
+  left: 250px;
+  padding: 20px 20px;
+  /* width: 100%; */
+  max-width: 1200px;
+  height: auto;
+}
+
+.Content h3 {
+  height: 36px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #495057;
+  text-align: left;
+}
+
+.Content h4 {
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.CardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  align-content: space-between;
+}
+
+.CardBody {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* align-content: space-between; */
+  height: 307px;
+  padding: 20px 20px;
+}
+
+.CardRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardLabelActive {
+  background: #d9534f;
+  border-radius: 10px;
+  padding: 4px;
+  color: #ffffff;
+  margin: 12px 12px 12px 0px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.CardLabelInactive {
+  background: #818a91;
+  border-radius: 10px;
+  padding: 4px;
+  color: #ffffff;
+  margin: 12px 12px 12px 0px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.Content p {
+  font-size: 16px;
+  /* line-height: 24px; */
+  /* identical to box height, or 150% */
+
+  /* color: #495057; */
+  text-align: left;
+}
+
+.Card {
+  margin: 10px auto;
+  width: 345px;
+  height: 427px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.Card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  color: #495057;
+}
+
+.Card p {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+}
+
+button {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 38px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 38px;
+  border-radius: 4px;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.CardPrimaryButton {
+  background: #6f42c1;
+  border: 1px solid #6f42c1;
+  color: white;
+}
+.CardSecondaryButton {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  color: #373a3c;
+}
+.CardDisabled {
+  background: #818a91;
+  border: 1px solid #7a7a7a;
+  color: #ffffff;
+}

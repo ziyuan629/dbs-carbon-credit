@@ -1,0 +1,102 @@
+.Content {
+  position: absolute;
+  left: 337px;
+  right: 20px;
+  top: 84px;
+  text-align: left;
+  /* padding: 30px 30px; */
+}
+
+.ContentHead {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Table {
+  width: 100%;
+}
+
+.Content h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 24px; */
+  /* line-height: 36px; */
+  /* identical to box height, or 150% */
+
+  /* float: left; */
+  color: #495057;
+}
+
+.Content button {
+  /* float: right; */
+  background: #6f42c1;
+  border: 1px solid #6f42c1;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Content thead {
+  background: #f2f2f2;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px 4px 0px 0px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #2f2e41;
+}
+
+.Content tbody {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 0px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* display: flex;
+  align-items: center; */
+
+  color: #2f2e41;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.Content th {
+  width: 20%;
+  padding: 16px 30px;
+}
+
+.Content td {
+  width: 20%;
+  padding: 16px 30px;
+}

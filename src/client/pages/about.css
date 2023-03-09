@@ -1,0 +1,82 @@
+.BG {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.BgBoard {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  position: absolute;
+  width: 650px;
+  height: 708px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+
+  padding: 40px 40px;
+}
+
+.Row {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  /* justify-content: flex-start; */
+}
+
+.BgBoard img {
+  /* width: 100%; */
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.BgBoard h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #495057;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.BgBoard p {
+  color: #495057;
+  width: 100%;
+}
+
+.BgBoard button {
+  background: #6f42c1;
+  border: 1px solid #6f42c1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 270px;
+  height: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.Skip {
+  /* height: 48px; */
+  text-decoration: underline;
+  color: #007bff;
+}
